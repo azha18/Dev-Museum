@@ -272,7 +272,7 @@ body{
 .inpt{
 	text-align: center;
 }
-input{
+.inpt input{
 	text-transform: uppercase;
     width: 300px;
     padding: 10px 11px;
@@ -283,9 +283,10 @@ input{
     font-weight: 700;
     margin: 5px;
     transition: 0.3s;
+    outline: none;
     border: none;
 }
-input:hover{
+.inpt input:hover{
 	background: #FF5733;
 	color: #003049;
 }
@@ -353,19 +354,32 @@ input:hover{
     padding-bottom: 25px;
 
 }
-.dm-warraper-right input{
-    margin: 15px;
-    padding: 9px 64px;
-    width: 230px;
-    border: none;
-    outline: none;
+.dm-form-log{
+    text-transform: uppercase;
+    width: 270px;
+    padding: 10px 11px;
+    font-size: 17px;
+    padding-left: 60px;
+    letter-spacing: 2px;
+    text-align: start;
+    border-radius: 25px;
+    font-weight: 700;
+    margin: 5px;
     transition: 0.3s;
-    font-size: 15px;
+    outline: none;
+    border: none;
 }
-.dm-submit{
-    width: 130px;
-    background: #FF5733;
-    cursor: pointer;
+.dm-submit-log{
+   width: 200px;
+   background: #FF5733;
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 25px;
+   font-size: 15px;
+   font-weight: 700;
+   border: none;
+   outline: none;
+   margin: 10px;
 }
 .dm-form-control{
     position: relative;
@@ -373,7 +387,7 @@ input:hover{
 .dm-form-icon{
     position: absolute;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 13px;
 }
 .dm-form-ber{
     width: 80px;
@@ -414,3 +428,63 @@ input:hover{
     width: 50px;
 }
 
+/*registation section*/
+
+.dm-warraper-reg-right{
+    width: 40%;
+    margin-top: 160px;
+    margin-right: 88px;
+}
+.dm-warraper-reg-left h2{
+    font-size: 30px;
+    margin-top: 75px;
+}
+.dm-warraper-reg-right img{
+    width: 100%;
+}
+.dm-warraper-reg-left{
+    width: 60%;
+    text-align: center;
+}
+.dm-form-reg-icon{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px
+}
+.dm-form-reg input{
+    text-transform: uppercase;
+    width: 270px;
+    padding: 10px 11px;
+    font-size: 17px;
+    padding-left: 60px;
+    letter-spacing: 2px;
+    text-align: start;
+    border-radius: 25px;
+    font-weight: 700;
+    margin: 5px;
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+
+.dm-form-reg-icon{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.dm-form-reg{
+    margin-bottom: 10px;
+}
+.dm-submit-reg{
+    width: 130px;
+    background: #FF5733;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
