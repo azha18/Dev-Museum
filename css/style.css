@@ -11,6 +11,10 @@ body{
 	background: #E9EBEE;
 }
 
+::placeholder {
+  color: #000;
+}
+
 /*Header section*/
 
 .header{
@@ -275,6 +279,7 @@ input{
     font-size: 17px;
     letter-spacing: 2px;
     text-align: center;
+    border-radius: 25px;
     font-weight: 700;
     margin: 5px;
     transition: 0.3s;
@@ -301,3 +306,111 @@ input:hover{
     color: #fff;
     cursor: pointer;
 }
+
+/*Login section*/
+
+
+.dm-form-warraper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #003049;
+    margin: auto;
+}
+.dm-form-section{
+    display: flex;
+    background: #E9EBEE;
+    width: 90%;
+    min-height: 500px;
+    border-radius: 25px; 
+    position: relative;
+   
+}
+.dm-warraper-left{
+    width: 40%;
+    padding: 10px;
+}
+.dm-warraper-left img{
+    width: 80%;
+    padding: 20px;
+    padding-left: 70px;
+    margin-top:70px;
+}
+.dm-warraper-right{
+    width: 60%;
+    transition: .3s;
+    text-align: center;
+}
+.dm-warraper-right h2{
+    font-size: 50px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.dm-warraper-right input{
+    margin: 15px;
+    padding: 9px 64px;
+    width: 230px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.dm-submit{
+    width: 130px;
+    background: #FF5733;
+    cursor: pointer;
+}
+.dm-form-control{
+    position: relative;
+}
+.dm-form-icon{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.dm-form-ber{
+    width: 80px;
+    height: 30px;
+    border-radius: 250px;
+    background: red;
+    position: absolute;
+}
+.dm-form-ber1{
+    left: -33px;
+    top: 30px;
+    background: #E9EBEE;
+}
+.dm-form-ber2{
+    left: -23px;
+    top: 90px;
+    background: #E9EBEE;
+}
+.dm-form-ber3{
+    right: -33px;
+    bottom:  30px;
+    background: #E9EBEE;
+}
+.dm-form-ber4{
+    right: -23px;
+    bottom: 90px;
+    background: #E9EBEE;
+}
+.dm-form-ber5{
+    top: 60px;
+    left: -64px;
+    background: #003049;
+}
+.dm-form-ber6{
+    bottom: 60px;
+    right: -34px;
+    background: #003049;
+    width: 50px;
+}
+
