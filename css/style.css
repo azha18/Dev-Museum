@@ -335,10 +335,10 @@ body{
     padding: 10px;
 }
 .dm-warraper-left img{
-    width: 80%;
-    padding: 20px;
-    padding-left: 70px;
-    margin-top:70px;
+    width: 100%;
+    /*padding: 20px;*/
+    padding-left: 50px;
+    margin-top:160px;
 }
 .dm-warraper-right{
     width: 60%;
@@ -364,7 +364,7 @@ body{
     text-align: start;
     border-radius: 25px;
     font-weight: 700;
-    margin: 5px;
+    margin: 15px;
     transition: 0.3s;
     outline: none;
     border: none;
