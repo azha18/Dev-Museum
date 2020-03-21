@@ -559,3 +559,84 @@ body{
     font-size: 12px;
     margin: 0;
 }
+
+
+/*Footer section*/
+
+.dm-footer-wrraper{
+    width: 100%;
+    background: #003049;
+    color: #fff;
+    margin-top: 20px;
+}
+.dm-footer-item{
+    display: flex;
+    margin: 0px 20px;
+}
+.dm-footer-items{
+    margin-right: 20px;
+}
+.dm-footer-items li{
+    list-style: none;
+    list-style: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.dm-footer-logo-item{
+    padding: 10px 20px;
+}
+.dm-footer-social i{
+    font-size: 25px;
+    transition: .3s;
+}
+.dm-footer-social i:hover{
+    color: #FF5733;
+}
+.dm-footer-social{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 25px 0;
+    padding: 0;
+}
+.dm-footer-hr{
+    margin: 20px 20px;
+}
+.dm-copy-right-wrraper{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.dm-copy-right-section{
+    width: 50%;
+    margin-left: 20px;
+}
+.dm-subscribe-button input{  
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    background: red;
+    background: #003049;
+    border-bottom: 1px solid #fff;
+    padding: 12px;
+}
+
+.dm-subscribe-button button{
+    padding: 12px 35px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    background: #FF5733;
+    cursor: pointer;
+    color: #000;
+}
+
+
+
+
+
