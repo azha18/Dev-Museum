@@ -84,6 +84,7 @@ body{
     margin-right: 10px;
     color: #fff;
     margin-top: 5px;
+    position: relative;
 }
 .search{
 	margin-right: 20px;
@@ -636,8 +637,89 @@ body{
     cursor: pointer;
     color: #000;
 }
+.dm-subscribe-button input::placeholder{
+    color: #fff;
+}
 
 
+/*Side Ber Menu Section*/
 
+
+.dm-side-menu-wrraper{
+    width: 220px;
+    height: 100vh;
+    background: #fff;
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.dm-side-menu-prfl-sec{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+.dm-side-menu-prfl-sec i{
+    font-size: 35px;
+}
+.dm-side-mrnu-profile-name{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+.dm-side-mrnu-profile-name h2{
+    font-size: 20px;
+    margin: 0px;
+}
+.dm-side-mrnu-profile-name h2 a{
+    color: #000;
+    text-decoration: none;
+}
+.dm-side-mrnu-profile-name p{
+    font-size: 12px;
+    margin: 0px;
+    margin-top: -15px;
+}
+.dm-side-mrnu-profile-name p i{
+    font-size: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.dm-side-mrnu-profile-name p i:hover{
+    color: #FF5733;
+}
+.dm-side-menu-items li{
+    list-style: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid #000;
+    margin-right: 20px;
+    transition: .4s;
+}
+.dm-side-menu-items li:hover{
+    padding-left: 10px;
+    color: #FF5733;
+}
+.dm-side-menu-items li i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.dm-side-menu-items li a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #000;
+}
+.dm-menuber-close-btn{
+    font-size: 18px;
+    margin-left: auto;
+    margin-top: 6px;
+    margin-right: 10px;
+    display: block !important;
+    color: #FF5733;
+    text-align: right;
+    cursor: pointer;
+}
+}
 
 
