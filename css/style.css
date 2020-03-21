@@ -586,6 +586,7 @@ body{
 }
 .dm-footer-logo-item{
     padding: 10px 20px;
+    display: inline-block;
 }
 .dm-footer-social i{
     font-size: 25px;
