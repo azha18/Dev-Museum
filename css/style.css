@@ -20,6 +20,7 @@ body{
 .header{
 	background: #003049;
 	display: flex;
+    align-items: center;
 	padding: 0 20px;
 	box-shadow: 0 8px 35px 0 rgba(0,0,0,.1);
 }
@@ -51,6 +52,7 @@ body{
 }
 .logo{
 	margin: 5px 0px ;
+    margin-top: 9px;
 }
 .logo a{
 	/*font-family: 'Baloo Da 2', cursive;*/
@@ -58,25 +60,42 @@ body{
     color: #fff;
     font-size: 25px;
     font-weight: 900;
+    transition: 0.3s;
 
 }
 .logo a span{
 	color: #FF5733;
+}
+
+.logo:hover span{
+    color: #fff;
+}
+.logo:hover a{
+    color: #FF5733;
 }
 .menuBar a i{
 	font-size: 25px;
     padding: 10px;
     margin: 0 10px;
     color: #fff;
-
 }
 .menuBar i{
 	font-size: 22px;
     margin-right: 10px;
     color: #fff;
+    margin-top: 5px;
 }
 .search{
-	margin-right: 40px;
+	margin-right: 20px;
+}
+.dm-notification-icon{
+    color: #fff;
+    margin-right: 19px;
+    cursor: pointer;
+    transition: .3s;
+}
+.dm-notification-icon:hover{
+    color: #FF5733;
 }
 .ask{
 	font-size: 14px;
@@ -90,11 +109,15 @@ body{
 }
 
 
-/*Categories section*/
+/*Categories & blog section*/
 
+.dm-blg-ctg-wrraper{
+    display: flex;
+    margin-top: 20px;
+}
 .Categories{
-	margin-left: 40px;
-    margin-top: 40px;
+    width: 30%;
+	margin-left: 20px;
     background: #fff;
     width: 221px;
     padding-left: 20px;
@@ -124,21 +147,20 @@ body{
 
 .blog-wrraper{
 	display: flex;
+    align-items: center;
 	width: 900px;
+    height: 200px;
     background: #fff;
     padding: 20px;
-    margin: 40px;
+    margin: 0px 20px 20px 40px;
 }
-
-
 .blog-wrraper img{
 	height: 120px;
-	margin-top: 35px;
 }
 
 .blog-content{
 	margin-left: 25px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .blog-content p{
 	font-size: 14px;
@@ -172,7 +194,7 @@ body{
 .wrraper404{
 	width: 100%;
     height: 680px;
-    background: #ff5200;
+    background: #003049;
     margin-top: -25px;
 }
 .wrraper404 h1{
@@ -189,7 +211,7 @@ body{
 .wrraper404 h2{
 	text-align: center;
     margin: 0;
-    font-size: 47px;
+    font-size: 30px;
     text-transform: uppercase;
     font-family: none;
     color: #fff;
@@ -203,7 +225,7 @@ body{
     color: #fff;
     line-height: 25px;
     padding-top: 22px;
-    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: none;
 }
 .btn404{
 	text-align: center;
@@ -215,14 +237,19 @@ body{
 	width: 140px;
     font-size: 14px;
     text-transform: uppercase;
-    background: orange;
+    background: #ff5200;
     border: none;
     color: #fff;
+    border-radius: 25px;
     font-weight: 600;
+    outline: none;
+    transition: .3s;
+    cursor: pointer;
     transition: .3s;
 }
 .btn404 button:hover{
-	background: #ff5200;
+    background: #fff;
+    color: #ff5200;
 }
 
 /*Login page*/
